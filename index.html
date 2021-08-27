@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        function clicouBotao(){    
+        paragrafo1 = document.getElementById("form1");
+        paragrafo1.innerHTML = "<form><label>Nome</label><input type=text name=nome><br><label>Tipo</label><input type=text name=tipo><br><button onclick=clicouBotao()>Clique</button></form>";
+        
+        var valor = {
+        }
+        valor['nome'] = nome.value;
+        valor['tipo'] = tipo.value;
+      }
+    </script>
+<head>
+    <title>Atividade</title>
+</head>
+  <body>
+    <form action="Pagina" id=form1>
+          <label>Nome</label>
+          <input type="text" name="nome">
+            <br>
+          <label>Tipo</label>
+          <input type="text" name="tipo">
+          <br>
+          <button onclick="clicouBotao()">Clique aqui</button>
+      </form>
+  </body>
+</html>
